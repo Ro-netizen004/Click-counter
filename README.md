@@ -1,4 +1,6 @@
 # Click counter
+
+Link to site: https://clickc.netlify.app/
 A site that acts as a counter
 
 Skills acquired:
