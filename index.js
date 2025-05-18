@@ -27,7 +27,7 @@ function reset(){
     displayCount();
 }
 
-funtion save(){
+function save(){
     str+=count + " ";
     saveElement.innerText=str;
 }
