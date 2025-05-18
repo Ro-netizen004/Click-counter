@@ -1,6 +1,8 @@
 let count=0;
 
 const counterElement=document.getElementById("counter");
+const saveElement=document.getElementById("save-El");
+let str="";
 
 function displayCount(){
     counterElement.innerText=count;
@@ -13,6 +15,8 @@ function increment(){
     displayCount();
 }
 
+
+
 function decrement(){
     count--;
     displayCount();
@@ -23,3 +27,7 @@ function reset(){
     displayCount();
 }
 
+funtion save(){
+    str+=count + " ";
+    saveElement.innerText=str;
+}
